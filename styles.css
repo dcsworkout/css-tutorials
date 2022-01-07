@@ -1,0 +1,54 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	font-family: "Kanit", sans-serif;
+}
+
+img {
+	max-width: 100%;
+}
+
+.card {
+	margin-top: 5em;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 1em;
+	border-radius: 0.4em;
+	background-color: hsl(0, 0%, 90%);
+	box-shadow: 5px 0 15px rgb(0 0 0 / 0.2);
+	width: 520px;
+}
+
+.card__image {
+	border-radius: 0.4em;
+}
+
+.card__image-container {
+	min-width: 320px;
+	border-radius: 0.4em;
+	overflow: hidden;
+}
+
+.card__header {
+	padding: 1em 0;
+}
+
+.card__title {
+	font-size: 1.2rem;
+}
+
+.card__subtitle {
+	font-size: 0.9rem;
+	opacity: 0.8;
+}
+
+.card__link {
+	margin-bottom: 0.5em;
+}
+
+.card__text {
+	font-size: 0.9rem;
+}
