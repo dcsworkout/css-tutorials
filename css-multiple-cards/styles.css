@@ -4,7 +4,6 @@
 
 body {
 	margin: 0;
-	font-family: "Kanit", sans-serif;
 }
 
 img {
@@ -14,7 +13,7 @@ img {
 .card {
 	padding: 1em;
 	border-radius: 0.4em;
-	background-color: hsl(0, 0%, 90%);
+	background-color: #e6e6e6;
 	box-shadow: 5px 0 15px rgb(0 0 0 / 0.2);
 }
 

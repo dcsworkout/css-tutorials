@@ -4,21 +4,29 @@
 
 body {
 	margin: 0;
-	font-family: "Kanit", sans-serif;
 }
-
+/*NO COPIAR*/
+.temp {
+	margin-top: 150px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 600px;
+}
+/*FIN NO COPIAR*/
 img {
 	max-width: 100%;
 }
 
+a {
+	text-decoration: none;
+	color: black;
+}
+
 .card {
-	margin-top: 5em;
-	margin-right: auto;
-	margin-left: auto;
 	padding: 1em;
 	border-radius: 0.4em;
-	background-color: hsl(0, 0%, 90%);
-	box-shadow: 5px 0 15px rgb(0 0 0 / 0.2);
+	background-color: #e6e6e6;
+	box-shadow: 5px 0 15px rgb(0 0 0 /0.2);
 	width: 520px;
 }
 
@@ -36,11 +44,11 @@ img {
 	padding: 1em 0;
 }
 
-.card__title {
+.card__tittle {
 	font-size: 1.2rem;
 }
 
-.card__subtitle {
+.card__subtittle {
 	font-size: 0.9rem;
 	opacity: 0.8;
 }
