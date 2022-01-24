@@ -22,7 +22,7 @@ img {
 }
 
 .card__image-container {
-	min-width: 320px;
+	min-width: 120px;
 	border-radius: 0.4em;
 	overflow: hidden;
 }
@@ -49,8 +49,8 @@ img {
 }
 
 .main {
-	margin: 0 auto;
 	display: grid;
-	grid-gap: 1rem;
-	grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+	/* grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); */
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	gap: 16px;
 }
